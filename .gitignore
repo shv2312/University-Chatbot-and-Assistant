@@ -1,0 +1,19 @@
+# Environment variables
+.env
+
+# Chroma vector database
+data/chroma_db/*
+!data/chroma_db/.gitkeep
+
+# Python cache & build
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
